@@ -1,7 +1,7 @@
 # Api Endepoints
 
 # Get List of Animals
-> `GET /animals/all`
+> `GET /animals/all` <br>
 > `http://localhost:8080/animals/all`
 
 # Response
