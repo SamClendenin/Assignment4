@@ -12,4 +12,9 @@
 # Get a Specific Animal
 > `GET /animal/{animalId}` <br>
 >  `http://localhost:8080/animals/all`
+
 # Response
+> { "animalId": 1, "name": "Sample1", "scientificName": "Sample1", "species": "Sample1", "habitat": "Sample1", "description": "Sample1"}
+
+# Create a New Animal
+>
