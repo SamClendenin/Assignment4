@@ -45,7 +45,7 @@
 # Get Animal by Name (Containing a String)
 
 ## Request
-> `GET /animals/search?name={string}`
+> `GET /animals/search?name={string}` <br>
 > `http://localhost:8080/animals/search?name=Blue`
 
 ## Response
@@ -55,7 +55,7 @@
 # Get Animals by Habitat
 
 ## Request
-> `GET /animals/habitat?habitat={habitat}`
+> `GET /animals/habitat?habitat={habitat}` <br>
 > `http://localhost:8080/animals/habitat?habitat=Savanna`
 
 ## Response
@@ -64,7 +64,7 @@
 # Update an Existing Animal
 
 ## Request
-> `PUT /animals/update/{animalId}`
+> `PUT /animals/update/{animalId}` <br>
 > `http://localhost:8080/animals/update/1` --data `{"name": "SampleUpdate", "scientificName": "SampleUpdated", "species": "SampleUpdated", "habitat": "SampleUpdated", "description": "SampleUpdated"}`
 
 ## Response
@@ -73,7 +73,7 @@
 # Delete an Animal
 
 ## Request
-> `DELETE /animals/delete/{animalId}`
+> `DELETE /animals/delete/{animalId}` <br>
 > `http://localhost:8080/animals/delete/1`
 
 ## Response
